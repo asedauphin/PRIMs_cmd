@@ -1,0 +1,125 @@
+define task list-recall {
+  initial-goals: (read-in-memory rehearse report-vocal )
+  goals: (be-lazy)
+  task-constants: ( letter list say)
+  imaginal-autoclear: t
+  rt: -2.0
+  default-activation: 1.0
+}
+
+// Read the first letter and put it in WM. Store goal id in WM
+define goal read-in-memory {
+  operator read-first-letter  {
+    WM1=nil
+    V1=letter
+    ==>
+   V2->WM3
+   list->WM1
+   G0->WM2
+   nil->V1
+  }
+
+// Read the next letter, store it in WM
+  operator read-next-letter {
+    WM1<>nil
+    V1=letter
+    ==>
+    >>WM4
+    V2->WM3
+    list->WM1
+    nil->V1
+  }
+}
+
+define goal report-vocal {
+  operator start-report {
+  "Retrieve the first item and bump anything remaining in WM to DM"
+    V1=report
+    RT1=nil
+    ==>
+    nil -> WM0
+    G0->RT2
+    report->WM1
+  }
+
+  operator report-item {
+  "Say item and retrieve next"
+    V1=report
+    RT4<>nil
+    ==>
+    RT3->AC2
+    say->AC1
+    RT4->RT0
+  }
+
+    operator report-item-last {
+    "Say item"
+        V1=report
+        RT4=nil
+        ==>
+        RT3->AC2
+        say->AC1
+        error->RT1
+    }
+
+  operator done-report {
+  "On retrieval error end report"
+    V1=report
+    RT1=error
+==>
+    stop->G1
+    say -> AC1
+    stop -> AC2
+  }
+}
+
+
+
+define goal be-lazy {
+  operator rehearse-no-rehearse {
+    V1=nil
+    ==>
+    wait->AC1
+  }
+}
+
+define facts {
+ (a a)
+ (b b)
+ (c c)
+ (d d)
+ (e e)
+ (f f)
+ (g g)
+ (h h)
+ (i i)
+ (j j)
+}
+
+define action say {
+    latency: 0.3
+    noise: 0.1
+    distribution: uniform
+    output: Saying
+}
+
+
+define script {
+    spans = [3, 4, 5, 6]
+    letters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"]
+    for span in spans {
+        print("Testing span",span)
+        trial-start()
+        for i in 0 to span {
+            screen("letter",letters[random(10)])
+            run-relative-time(2.0)
+        }
+        screen("report")
+        run-until-action("say", "stop")
+        issue-reward()
+        trial-end()
+        sleep(5)
+    }
+}
+
+

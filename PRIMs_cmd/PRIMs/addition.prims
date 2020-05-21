@@ -1,0 +1,90 @@
+// Add numbers by counting
+// and remember the answer for later retrieval
+//
+
+define task addition {
+    initial-goals: (countnumbers)
+    goals: (give-answer)
+    task-constants: (addition count-fact give-answer)
+    imaginal-autoclear: nil
+    default-activation: 1.0
+	goal-operator-learning: t
+	reward: 10.0
+}
+
+
+define goal countnumbers {
+
+    operator init-addition {
+        WM1=nil
+        ==>
+        addition->WM1
+        V1->WM2
+        zero->WM3
+        V1->WM4
+        count-fact -> RT1
+        V1->RT2
+    }
+
+    operator add-to-sum {
+        WM4=RT2
+        ==>
+        RT3->WM4
+        count-fact -> RT1
+        WM3->RT2
+    }
+
+    operator add-to-count {
+        WM3=RT2
+        RT3<>V2
+        ==>
+        RT3->WM3
+        count-fact -> RT1
+        WM4->RT2
+    }
+
+    operator finished-sum {
+        WM3=RT2
+        RT3=V2
+        ==>
+        RT3->WM3
+        give-answer->G2
+    }
+
+}
+
+define goal give-answer {
+    operator say-sum {
+    	G2=give-answer
+        WM4<>nil
+    ==>
+        say->AC1
+        WM4->AC2
+        stop->G1
+    }
+}
+
+
+define facts {
+    (cf0 count-fact  zero  one :activation 3.0)
+    (cf1 count-fact  one  two :activation 3.0)
+    (cf2 count-fact  two  three :activation 3.0)
+    (cf3  count-fact  three  four :activation 3.0)
+    (cf4  count-fact  four  five :activation 3.0)
+    (cf5  count-fact  five  six :activation 3.0)
+    (cf6  count-fact  six  seven :activation 3.0)
+    (cf7  count-fact  seven  eight :activation 3.0)
+    (cf8  count-fact  eight  nine :activation 3.0)
+    (cf9  count-fact  nine  ten :activation 3.0)
+}
+
+define script {
+	digits = ["zero","one","two","three","four","five","six","seven","eight","nine","ten"]
+    num1 = random(4) + 1
+    num2 = random(4) + 1
+    print("Adding",digits[num1],"and",digits[num2])
+    screen(digits[num1],digits[num2])
+    run-until-action("say")
+    issue-reward()
+    trial-end()
+}

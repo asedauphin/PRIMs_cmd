@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>D3E5773F-B2B7-4FE9-8EFD-11D32945E77E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D3E5773F-B2B7-4FE9-8EFD-11D32945E77E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>PRIMs_cmd project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PRIMs_cmd</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build PRIMs_cmd</string>
+			<key>timeStartedRecording</key>
+			<real>611612050.36417198</real>
+			<key>timeStoppedRecording</key>
+			<real>611612051.90311301</real>
+			<key>title</key>
+			<string>Build PRIMs_cmd</string>
+			<key>uniqueIdentifier</key>
+			<string>D3E5773F-B2B7-4FE9-8EFD-11D32945E77E</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

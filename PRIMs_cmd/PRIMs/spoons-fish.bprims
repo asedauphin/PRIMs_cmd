@@ -1,0 +1,6 @@
+repeat 10
+reset
+run count-spoons train-spoons 100
+run more-fish fish-transfer 100
+reset
+run more-fish fish-control 100

@@ -1,0 +1,660 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "bufferMappingC"
+- "bufferMappingA"
+- "bufferMappingPP"
+- "bufferOrder"
+- "parseName"
+- "Prim"
+provides-nominal:
+- "9PRIMs_cmd4PrimC"
+provides-member:
+- ["9PRIMs_cmd4PrimC", ""]
+provides-dynamic-lookup:
+- "description"
+- "encode"
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- !private "+"
+- !private "+="
+- !private "..."
+- "<"
+- !private "=="
+- ">"
+- !private ">="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "Comparable"
+- !private "ExtendedGraphemeClusterType"
+- "FloatLiteralType"
+- !private "Int"
+- "IntegerLiteralType"
+- "Model"
+- "NSCoder"
+- "NSCoding"
+- "NSObject"
+- "Prim"
+- "String"
+- "StringLiteralType"
+- "TernaryPrecedence"
+- "UnicodeScalarType"
+- "bufferMappingA"
+- "bufferMappingC"
+- "bufferMappingPP"
+- "bufferOrder"
+- "parseName"
+- !private "||"
+- !private "~="
+depends-member:
+- !private ["9PRIMs_cmd6ActionC", "pop"]
+- !private ["9PRIMs_cmd6ActionC", "push"]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "subscript"]
+- !private ["SK", "append"]
+- !private ["SK", "count"]
+- !private ["SK", "init"]
+- !private ["SK", "subscript"]
+- !private ["Sz", "init"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "action"]
+- !private ["s7CVarArgP", "addToDM"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "buffers"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "decodeObject"]
+- !private ["s7CVarArgP", "dm"]
+- ["s7CVarArgP", "encode"]
+- ["s7CVarArgP", "encodeWithCoder"]
+- !private ["s7CVarArgP", "generateNewChunk"]
+- !private ["s7CVarArgP", "imaginal"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "lhsBuffer"]
+- !private ["s7CVarArgP", "lhsSlot"]
+- !private ["s7CVarArgP", "model"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "op"]
+- !private ["s7CVarArgP", "parent"]
+- !private ["s7CVarArgP", "parseName"]
+- !private ["s7CVarArgP", "pop"]
+- !private ["s7CVarArgP", "push"]
+- !private ["s7CVarArgP", "rhsBuffer"]
+- !private ["s7CVarArgP", "rhsSlot"]
+- !private ["s7CVarArgP", "setSlot"]
+- !private ["s7CVarArgP", "slotValue"]
+- !private ["s7CVarArgP", "slotvals"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "temporal"]
+- !private ["9PRIMs_cmd5ChunkC", "deinit"]
+- !private ["9PRIMs_cmd5ChunkC", "parent"]
+- !private ["9PRIMs_cmd5ChunkC", "setSlot"]
+- !private ["9PRIMs_cmd5ChunkC", "slotValue"]
+- !private ["9PRIMs_cmd5ChunkC", "slotvals"]
+- !private ["Sl", "append"]
+- !private ["Sl", "count"]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "action"]
+- !private ["s28CustomDebugStringConvertibleP", "addChunk"]
+- !private ["s28CustomDebugStringConvertibleP", "addToDM"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "buffers"]
+- !private ["s28CustomDebugStringConvertibleP", "chunks"]
+- !private ["s28CustomDebugStringConvertibleP", "compareTime"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "decodeObject"]
+- !private ["s28CustomDebugStringConvertibleP", "dm"]
+- ["s28CustomDebugStringConvertibleP", "encode"]
+- ["s28CustomDebugStringConvertibleP", "encodeWithCoder"]
+- !private ["s28CustomDebugStringConvertibleP", "generateNewChunk"]
+- !private ["s28CustomDebugStringConvertibleP", "hasToDoAction"]
+- !private ["s28CustomDebugStringConvertibleP", "imaginal"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lhsBuffer"]
+- !private ["s28CustomDebugStringConvertibleP", "lhsSlot"]
+- !private ["s28CustomDebugStringConvertibleP", "model"]
+- !private ["s28CustomDebugStringConvertibleP", "moveWMtoDM"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "op"]
+- !private ["s28CustomDebugStringConvertibleP", "parent"]
+- !private ["s28CustomDebugStringConvertibleP", "parseName"]
+- !private ["s28CustomDebugStringConvertibleP", "pop"]
+- !private ["s28CustomDebugStringConvertibleP", "push"]
+- !private ["s28CustomDebugStringConvertibleP", "rhsBuffer"]
+- !private ["s28CustomDebugStringConvertibleP", "rhsSlot"]
+- !private ["s28CustomDebugStringConvertibleP", "setSlot"]
+- !private ["s28CustomDebugStringConvertibleP", "slotValue"]
+- !private ["s28CustomDebugStringConvertibleP", "slotvals"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "temporal"]
+- !private ["s17CustomReflectableP", "addChunk"]
+- !private ["s17CustomReflectableP", "addToDM"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "chunks"]
+- !private ["s17CustomReflectableP", "compareTime"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "hasToDoAction"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "moveWMtoDM"]
+- !private ["s17CustomReflectableP", "pop"]
+- !private ["s17CustomReflectableP", "push"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "action"]
+- !private ["s23CustomStringConvertibleP", "addToDM"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "buffers"]
+- !private ["s23CustomStringConvertibleP", "chunk"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "decodeObject"]
+- !private ["s23CustomStringConvertibleP", "dm"]
+- ["s23CustomStringConvertibleP", "encode"]
+- ["s23CustomStringConvertibleP", "encodeWithCoder"]
+- !private ["s23CustomStringConvertibleP", "generateNewChunk"]
+- !private ["s23CustomStringConvertibleP", "imaginal"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEqual"]
+- !private ["s23CustomStringConvertibleP", "lhsBuffer"]
+- !private ["s23CustomStringConvertibleP", "lhsSlot"]
+- !private ["s23CustomStringConvertibleP", "model"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "number"]
+- !private ["s23CustomStringConvertibleP", "op"]
+- !private ["s23CustomStringConvertibleP", "parent"]
+- !private ["s23CustomStringConvertibleP", "parseName"]
+- !private ["s23CustomStringConvertibleP", "pop"]
+- !private ["s23CustomStringConvertibleP", "push"]
+- !private ["s23CustomStringConvertibleP", "rhsBuffer"]
+- !private ["s23CustomStringConvertibleP", "rhsSlot"]
+- !private ["s23CustomStringConvertibleP", "setSlot"]
+- !private ["s23CustomStringConvertibleP", "slotValue"]
+- !private ["s23CustomStringConvertibleP", "slotvals"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "temporal"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["9PRIMs_cmd11DeclarativeC", "addToDM"]
+- !private ["9PRIMs_cmd11DeclarativeC", "pop"]
+- !private ["9PRIMs_cmd11DeclarativeC", "push"]
+- !private ["Se", "addChunk"]
+- !private ["Se", "addToDM"]
+- !private ["Se", "append"]
+- !private ["Se", "chunks"]
+- !private ["Se", "compareTime"]
+- !private ["Se", "count"]
+- !private ["Se", "hasToDoAction"]
+- !private ["Se", "init"]
+- !private ["Se", "moveWMtoDM"]
+- !private ["Se", "pop"]
+- !private ["Se", "push"]
+- !private ["Se", "subscript"]
+- !private ["SD", "subscript"]
+- !private ["SE", "addChunk"]
+- !private ["SE", "addToDM"]
+- !private ["SE", "append"]
+- !private ["SE", "chunks"]
+- !private ["SE", "compareTime"]
+- !private ["SE", "count"]
+- !private ["SE", "hasToDoAction"]
+- !private ["SE", "init"]
+- !private ["SE", "moveWMtoDM"]
+- !private ["SE", "pop"]
+- !private ["SE", "push"]
+- !private ["SE", "subscript"]
+- ["SQ", ""]
+- !private ["SQ", "action"]
+- !private ["SQ", "addChunk"]
+- !private ["SQ", "addToDM"]
+- !private ["SQ", "append"]
+- !private ["SQ", "buffers"]
+- !private ["SQ", "chunks"]
+- !private ["SQ", "compareTime"]
+- !private ["SQ", "count"]
+- !private ["SQ", "decodeObject"]
+- !private ["SQ", "dm"]
+- ["SQ", "encode"]
+- ["SQ", "encodeWithCoder"]
+- !private ["SQ", "generateNewChunk"]
+- !private ["SQ", "hasToDoAction"]
+- !private ["SQ", "imaginal"]
+- ["SQ", "init"]
+- !private ["SQ", "lhsBuffer"]
+- !private ["SQ", "lhsSlot"]
+- !private ["SQ", "model"]
+- !private ["SQ", "moveWMtoDM"]
+- !private ["SQ", "name"]
+- !private ["SQ", "op"]
+- !private ["SQ", "parent"]
+- !private ["SQ", "parseName"]
+- !private ["SQ", "pop"]
+- !private ["SQ", "push"]
+- !private ["SQ", "rhsBuffer"]
+- !private ["SQ", "rhsSlot"]
+- !private ["SQ", "setSlot"]
+- !private ["SQ", "slotValue"]
+- !private ["SQ", "slotvals"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "temporal"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "addChunk"]
+- !private ["s23ExpressibleByNilLiteralP", "addToDM"]
+- !private ["s23ExpressibleByNilLiteralP", "chunks"]
+- !private ["s23ExpressibleByNilLiteralP", "compareTime"]
+- !private ["s23ExpressibleByNilLiteralP", "hasToDoAction"]
+- !private ["s23ExpressibleByNilLiteralP", "moveWMtoDM"]
+- !private ["s23ExpressibleByNilLiteralP", "pop"]
+- !private ["s23ExpressibleByNilLiteralP", "push"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["SH", ""]
+- !private ["SH", "action"]
+- !private ["SH", "addChunk"]
+- !private ["SH", "addToDM"]
+- !private ["SH", "append"]
+- !private ["SH", "buffers"]
+- !private ["SH", "chunks"]
+- !private ["SH", "compareTime"]
+- !private ["SH", "count"]
+- !private ["SH", "decodeObject"]
+- !private ["SH", "dm"]
+- ["SH", "encode"]
+- ["SH", "encodeWithCoder"]
+- !private ["SH", "generateNewChunk"]
+- !private ["SH", "hasToDoAction"]
+- !private ["SH", "imaginal"]
+- ["SH", "init"]
+- !private ["SH", "lhsBuffer"]
+- !private ["SH", "lhsSlot"]
+- !private ["SH", "model"]
+- !private ["SH", "moveWMtoDM"]
+- !private ["SH", "name"]
+- !private ["SH", "op"]
+- !private ["SH", "parent"]
+- !private ["SH", "parseName"]
+- !private ["SH", "pop"]
+- !private ["SH", "push"]
+- !private ["SH", "rhsBuffer"]
+- !private ["SH", "rhsSlot"]
+- !private ["SH", "setSlot"]
+- !private ["SH", "slotValue"]
+- !private ["SH", "slotvals"]
+- !private ["SH", "subscript"]
+- !private ["SH", "temporal"]
+- !private ["9PRIMs_cmd8ImaginalC", "addChunk"]
+- !private ["9PRIMs_cmd8ImaginalC", "chunks"]
+- !private ["9PRIMs_cmd8ImaginalC", "hasToDoAction"]
+- !private ["9PRIMs_cmd8ImaginalC", "moveWMtoDM"]
+- !private ["9PRIMs_cmd8ImaginalC", "pop"]
+- !private ["9PRIMs_cmd8ImaginalC", "push"]
+- !private ["Si", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["9PRIMs_cmd5ModelC", "action"]
+- !private ["9PRIMs_cmd5ModelC", "buffers"]
+- !private ["9PRIMs_cmd5ModelC", "dm"]
+- !private ["9PRIMs_cmd5ModelC", "generateNewChunk"]
+- !private ["9PRIMs_cmd5ModelC", "imaginal"]
+- !private ["9PRIMs_cmd5ModelC", "temporal"]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["So7NSCoderC", "decodeObject"]
+- !private ["So7NSCoderC", "encode"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "action"]
+- !private ["So8NSCodingP", "addToDM"]
+- !private ["So8NSCodingP", "buffers"]
+- !private ["So8NSCodingP", "dm"]
+- ["So8NSCodingP", "encode"]
+- ["So8NSCodingP", "encodeWithCoder"]
+- !private ["So8NSCodingP", "generateNewChunk"]
+- !private ["So8NSCodingP", "imaginal"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "lhsBuffer"]
+- !private ["So8NSCodingP", "lhsSlot"]
+- !private ["So8NSCodingP", "model"]
+- !private ["So8NSCodingP", "name"]
+- !private ["So8NSCodingP", "op"]
+- !private ["So8NSCodingP", "parent"]
+- !private ["So8NSCodingP", "parseName"]
+- !private ["So8NSCodingP", "pop"]
+- !private ["So8NSCodingP", "push"]
+- !private ["So8NSCodingP", "rhsBuffer"]
+- !private ["So8NSCodingP", "rhsSlot"]
+- !private ["So8NSCodingP", "setSlot"]
+- !private ["So8NSCodingP", "slotValue"]
+- !private ["So8NSCodingP", "slotvals"]
+- !private ["So8NSCodingP", "temporal"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Model"]
+- ["So8NSObjectC", "NSCoder"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "action"]
+- !private ["So8NSObjectC", "addToDM"]
+- !private ["So8NSObjectC", "buffers"]
+- !private ["So8NSObjectC", "decodeObject"]
+- ["So8NSObjectC", "description"]
+- !private ["So8NSObjectC", "dm"]
+- ["So8NSObjectC", "encode"]
+- ["So8NSObjectC", "encodeWithCoder"]
+- ["So8NSObjectC", "fire"]
+- !private ["So8NSObjectC", "generateNewChunk"]
+- !private ["So8NSObjectC", "imaginal"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "lhsBuffer"]
+- ["So8NSObjectC", "lhsSlot"]
+- ["So8NSObjectC", "model"]
+- ["So8NSObjectC", "name"]
+- ["So8NSObjectC", "op"]
+- !private ["So8NSObjectC", "parent"]
+- !private ["So8NSObjectC", "parseName"]
+- !private ["So8NSObjectC", "pop"]
+- !private ["So8NSObjectC", "push"]
+- ["So8NSObjectC", "rhsBuffer"]
+- ["So8NSObjectC", "rhsSlot"]
+- !private ["So8NSObjectC", "setSlot"]
+- !private ["So8NSObjectC", "slotValue"]
+- !private ["So8NSObjectC", "slotvals"]
+- !private ["So8NSObjectC", "temporal"]
+- ["So8NSObjectC", "testFire"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "action"]
+- !private ["So8NSObjectP", "addToDM"]
+- !private ["So8NSObjectP", "buffers"]
+- !private ["So8NSObjectP", "decodeObject"]
+- !private ["So8NSObjectP", "dm"]
+- ["So8NSObjectP", "encode"]
+- ["So8NSObjectP", "encodeWithCoder"]
+- !private ["So8NSObjectP", "generateNewChunk"]
+- !private ["So8NSObjectP", "imaginal"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "lhsBuffer"]
+- !private ["So8NSObjectP", "lhsSlot"]
+- !private ["So8NSObjectP", "model"]
+- !private ["So8NSObjectP", "name"]
+- !private ["So8NSObjectP", "op"]
+- !private ["So8NSObjectP", "parent"]
+- !private ["So8NSObjectP", "parseName"]
+- !private ["So8NSObjectP", "pop"]
+- !private ["So8NSObjectP", "push"]
+- !private ["So8NSObjectP", "rhsBuffer"]
+- !private ["So8NSObjectP", "rhsSlot"]
+- !private ["So8NSObjectP", "setSlot"]
+- !private ["So8NSObjectP", "slotValue"]
+- !private ["So8NSObjectP", "slotvals"]
+- !private ["So8NSObjectP", "temporal"]
+- !private ["Sj", "init"]
+- !private ["Sq", "addChunk"]
+- !private ["Sq", "addToDM"]
+- !private ["Sq", "chunks"]
+- !private ["Sq", "compareTime"]
+- !private ["Sq", "hasToDoAction"]
+- !private ["Sq", "moveWMtoDM"]
+- !private ["Sq", "pop"]
+- !private ["Sq", "push"]
+- ["9PRIMs_cmd4PrimC", "Bool"]
+- ["9PRIMs_cmd4PrimC", "Model"]
+- ["9PRIMs_cmd4PrimC", "NSCoder"]
+- ["9PRIMs_cmd4PrimC", "String"]
+- ["9PRIMs_cmd4PrimC", "deinit"]
+- ["9PRIMs_cmd4PrimC", "description"]
+- ["9PRIMs_cmd4PrimC", "encode"]
+- ["9PRIMs_cmd4PrimC", "encodeWithCoder"]
+- ["9PRIMs_cmd4PrimC", "fire"]
+- ["9PRIMs_cmd4PrimC", "init"]
+- ["9PRIMs_cmd4PrimC", "lhsBuffer"]
+- ["9PRIMs_cmd4PrimC", "lhsSlot"]
+- ["9PRIMs_cmd4PrimC", "model"]
+- ["9PRIMs_cmd4PrimC", "name"]
+- ["9PRIMs_cmd4PrimC", "op"]
+- !private ["9PRIMs_cmd4PrimC", "parseName"]
+- ["9PRIMs_cmd4PrimC", "rhsBuffer"]
+- ["9PRIMs_cmd4PrimC", "rhsSlot"]
+- ["9PRIMs_cmd4PrimC", "testFire"]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- !private ["Sm", "init"]
+- !private ["Sm", "subscript"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "append"]
+- !private ["ST", "count"]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["9PRIMs_cmd8TemporalC", "compareTime"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["9PRIMs_cmd5ValueO", "chunk"]
+- !private ["9PRIMs_cmd5ValueO", "isEqual"]
+- !private ["9PRIMs_cmd5ValueO", "number"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "action"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addToDM"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "buffers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "decodeObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dm"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "encode"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "encodeWithCoder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "generateNewChunk"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imaginal"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lhsBuffer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lhsSlot"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "model"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "op"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "parent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "parseName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pop"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "push"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rhsBuffer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rhsSlot"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setSlot"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "slotValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "slotvals"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "temporal"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "action"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addToDM"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "buffers"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "decodeObject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dm"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "encode"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "encodeWithCoder"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "generateNewChunk"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "imaginal"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "lhsBuffer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "lhsSlot"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "model"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "name"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "op"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "parent"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "parseName"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "pop"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "push"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "rhsBuffer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "rhsSlot"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setSlot"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "slotValue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "slotvals"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "temporal"]
+- !private ["s21_ObjectiveCBridgeableP", "addChunk"]
+- !private ["s21_ObjectiveCBridgeableP", "addToDM"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "chunks"]
+- !private ["s21_ObjectiveCBridgeableP", "compareTime"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "hasToDoAction"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "moveWMtoDM"]
+- !private ["s21_ObjectiveCBridgeableP", "pop"]
+- !private ["s21_ObjectiveCBridgeableP", "push"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "9PRIMs_cmd6ActionC"
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "SK"
+- !private "Sz"
+- "s7CVarArgP"
+- !private "9PRIMs_cmd5ChunkC"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "9PRIMs_cmd11DeclarativeC"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "9PRIMs_cmd8ImaginalC"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "9PRIMs_cmd5ModelC"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So7NSCoderC"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sj"
+- !private "Sq"
+- "9PRIMs_cmd4PrimC"
+- !private "Sk"
+- !private "Sm"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "9PRIMs_cmd8TemporalC"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "9PRIMs_cmd5ValueO"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/XPC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/CoreData.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/IOKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/AppKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-macos.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "ce39f54f63f9b445a7753c8a81a02ec7"

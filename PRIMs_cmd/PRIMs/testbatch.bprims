@@ -1,0 +1,6 @@
+repeat 2
+reset
+run count traincount 100
+run semantic semantictransfer 100
+reset
+run semantic semanticcontrol 100
